@@ -1,0 +1,72 @@
+# =========================
+# Frontend - React / Vite
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# =========================
+# Backend - Spring Boot
+# =========================
+
+backend/target/
+
+# Environment files
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+
+# =========================
+# Java
+# =========================
+
+*.class
+
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
